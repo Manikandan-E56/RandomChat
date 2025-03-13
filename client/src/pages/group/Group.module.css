@@ -1,0 +1,60 @@
+/* Group.module.css */
+
+.JoinGroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+  }
+  
+  .JoinGroup form {
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+  }
+  
+  .JoinGroup h2 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .JoinGroup input {
+    width: 100%;
+    padding: 10px ;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    transition: border 0.3s ease;
+  }
+  
+  .JoinGroup input:focus {
+    border-color: #007bff;
+  }
+  
+  .JoinGroup button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(119, 208, 123);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .JoinGroup button:hover {
+    background-color: #0056b3;
+  }
+  

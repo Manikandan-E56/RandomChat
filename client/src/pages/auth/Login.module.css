@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    font-family: "McLaren", sans-serif;
+    font-weight: 600;
+    background-color: #f4f4f4;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.login {
+    width: 400px;
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.title h3 {
+    margin: 10px 0;
+    font-size: 30px;
+    color: #333;
+}
+
+
+.profile_img {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.profile_img img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #333;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    text-align: left;
+}
+
+.content label {
+    font-size: 16px;
+    margin: 5px 0;
+    align-self: flex-start;
+}
+
+.content input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+.content input:focus {
+    border-color: #007bff;
+}
+
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #77d07b;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #5caf5e;
+}
+
+.login p {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #333;
+}
+
+.login span {
+    cursor: pointer;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.login span:hover {
+    text-decoration: underline;
+}

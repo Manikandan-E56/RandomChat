@@ -1,0 +1,89 @@
+.chatcontent {
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+/* Chat messages container */
+.chats {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 20px;
+    overflow-y: auto;
+    max-height: 90vh; 
+    
+}
+
+/* Individual chat message */
+.chatmessage {
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    margin-bottom: 8px;
+}
+
+
+.chatmessage p {
+    align-self: self-start;
+    margin: 0;
+    color: rgb(93, 89, 89);
+    font-size: 14px;
+}
+
+.chatmessage h3 {
+    background-color: rgb(117, 195, 117);
+    padding: 10px 40px;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    word-wrap: break-word;
+    max-width: 100%;
+}
+
+.chatmessage .time{
+    align-self: self-end;
+    margin: 0%;
+    color: rgb(93, 89, 89);
+    font-size: 10px;
+}
+
+
+/* Chat input area */
+.chatinput {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background: #fff;
+    border-top: 1px solid #ddd;
+    position: relative;
+    top: 40px;
+}
+
+/* Input field */
+.chatinput input {
+    flex-grow: 1;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    width: 1000%;
+}
+
+/* Send button */
+.chatinput button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 2px;
+    margin: 0%;
+}
+
+.chatinput button img {
+    width: 24px;
+    height: 24px;
+}
